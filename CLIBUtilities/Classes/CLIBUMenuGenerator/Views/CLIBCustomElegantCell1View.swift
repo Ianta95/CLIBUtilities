@@ -39,7 +39,7 @@ class CLIBCustomElegantCell1View: UIView {
     let font: UIFont?
     var action: ( () -> ())?
     
-    init(title: String, imgResource: UIImage?, font: UIFont? = nil){
+    public init(title: String, imgResource: UIImage?, font: UIFont? = nil){
         self.title = title
         self.imgResource = imgResource
         self.font = font

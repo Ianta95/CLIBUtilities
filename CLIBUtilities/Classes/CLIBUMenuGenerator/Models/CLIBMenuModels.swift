@@ -14,7 +14,7 @@ public struct CLIBMenuViewGestureDrawKeyPosition {
     let minY: Double
     private var isDone: Bool = false
     
-    init(minX: Double, maxX: Double, minY: Double, maxY: Double){
+    public init(minX: Double, maxX: Double, minY: Double, maxY: Double){
         self.minX = minX
         self.maxX = maxX
         self.minY = minY
@@ -38,7 +38,7 @@ public struct CLIBMenuViewGestureDrawPattern {
     private var originalPoint: CGPoint? = nil
     var drawPatternClosure: (() -> ())?
     
-    init(pattern: [CLIBMenuViewGestureDrawKeyPosition], returnToOriginalPoint: Bool = true) {
+    public init(pattern: [CLIBMenuViewGestureDrawKeyPosition], returnToOriginalPoint: Bool = true) {
         self.patternOriginal = pattern
         self.patternValidation = pattern
         self.returnToOriginalPoint = returnToOriginalPoint
@@ -103,7 +103,7 @@ struct CLIBViewControllerDataModel {
     var isPresentNewController: Bool = false
    
     
-    init(key: String,
+    public init(key: String,
          icon: UIImage? = nil,
          title: String,
          controller: UIViewController? = nil,

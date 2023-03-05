@@ -91,7 +91,7 @@ public class CLIBMenuGeneratorController: UIViewController {
     internal var arrayOfLines: [UIView] = []
     
     // MARK: Overrides
-    init(data: CLIBMenuGeneratorController.Model){
+    public init(data: CLIBMenuGeneratorController.Model){
         self.viewModel = CLIBMenuViewModel(viewControllerOptions: data.options, bottomOptions: data.bottomOptions, configs: data.configs)
         super.init(nibName: nil, bundle: nil)
     }
