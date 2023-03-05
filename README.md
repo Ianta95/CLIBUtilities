@@ -1,6 +1,6 @@
 # CLIBUtilities
+CLIBUtilities its a collection of tools that you can use for your project and let you make APPS more easier and complex. MenuGenerator its the tool that you can use to generate menu with only 3 lines.
 
-[![CI Status](https://img.shields.io/travis/Ianta95/CLIBUtilities.svg?style=flat)](https://travis-ci.org/Ianta95/CLIBUtilities)
 [![Version](https://img.shields.io/cocoapods/v/CLIBUtilities.svg?style=flat)](https://cocoapods.org/pods/CLIBUtilities)
 [![License](https://img.shields.io/cocoapods/l/CLIBUtilities.svg?style=flat)](https://cocoapods.org/pods/CLIBUtilities)
 [![Platform](https://img.shields.io/cocoapods/p/CLIBUtilities.svg?style=flat)](https://cocoapods.org/pods/CLIBUtilities)
