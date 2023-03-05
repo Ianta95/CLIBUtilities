@@ -90,7 +90,7 @@ public struct CLIBMenuViewGestureDrawPattern {
     
 }
 
-struct CLIBViewControllerDataModel {
+public struct CLIBViewControllerDataModel {
     var key: String
     var icon: UIImage? = nil
     var title: String
