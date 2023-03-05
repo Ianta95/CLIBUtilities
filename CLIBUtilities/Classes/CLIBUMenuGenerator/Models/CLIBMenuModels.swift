@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct CLIBMenuViewGestureDrawKeyPosition {
+public struct CLIBMenuViewGestureDrawKeyPosition {
     let maxX: Double
     let minX: Double
     let maxY: Double
@@ -30,7 +30,7 @@ struct CLIBMenuViewGestureDrawKeyPosition {
     }
 }
 
-struct CLIBMenuViewGestureDrawPattern {
+public struct CLIBMenuViewGestureDrawPattern {
     private let patternOriginal: [CLIBMenuViewGestureDrawKeyPosition]
     private var patternValidation: [CLIBMenuViewGestureDrawKeyPosition]
     private var returnToOriginalPoint: Bool = true

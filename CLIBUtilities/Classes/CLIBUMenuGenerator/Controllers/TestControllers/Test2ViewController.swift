@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Test2ViewController: UIViewController {
+public class Test2ViewController: UIViewController {
     
     let lblTitle: UILabel = {
         let lbl = UILabel()

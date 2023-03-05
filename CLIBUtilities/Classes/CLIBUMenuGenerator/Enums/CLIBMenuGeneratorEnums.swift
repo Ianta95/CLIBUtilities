@@ -7,11 +7,11 @@
 
 import UIKit
 
-enum CLIBMenuViewGesture {
+public enum CLIBMenuViewGesture {
     case screenEdgeGesture(pattern: CLIBMenuViewGestureDrawPattern)
 }
 
-enum CLIBMenuViewPosition {
+public enum CLIBMenuViewPosition {
     case topLeftGrid3x3
     case topMiddleGrid3x3
     case topRightGrid3x3
@@ -40,7 +40,7 @@ enum CLIBMenuViewPosition {
     case customOrigin(x: Double, y: Double)
 }
 
-enum CLIBMenuViewConfigs {
+public enum CLIBMenuViewConfigs {
     case setTitle(attributtedTitle: NSMutableAttributedString)
     case setOptions(options: [CLIBViewControllerDataModel])
     case primaryColor(color: UIColor)
@@ -54,7 +54,7 @@ enum CLIBMenuViewConfigs {
     
 }
 
-enum CLIBMenuViewSendData {
+public enum CLIBMenuViewSendData {
     case none
     case data(data: AnyObject?)
 }

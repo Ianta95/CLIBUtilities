@@ -8,7 +8,7 @@
 import UIKit
 
 extension CLIBMenuGeneratorController {
-    struct Model {
+    public struct Model {
         var options: [CLIBViewControllerDataModel]
         var bottomOptions: [CLIBViewControllerDataModel]
         var configs: [CLIBMenuViewConfigs]

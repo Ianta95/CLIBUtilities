@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol CLIBMenuViewInputProtocols: AnyObject {
+public protocol CLIBMenuViewInputProtocols: AnyObject {
     func menuView(showMenu data: CLIBMenuViewSendData)
     func menuView(hideMenu data: CLIBMenuViewSendData)
     func menuView(sendFromController data: CLIBMenuViewSendData)
@@ -16,7 +16,7 @@ protocol CLIBMenuViewInputProtocols: AnyObject {
     func menuView(showLoader completion: @escaping() -> ())
 }
 
-protocol CLIBMenuViewOutputProtocols: AnyObject {
+public protocol CLIBMenuViewOutputProtocols: AnyObject {
     func menuView(sendFromMenu data: CLIBMenuViewSendData)
 }
 
@@ -43,7 +43,7 @@ protocol CLIBMenuViewProtocols: AnyObject {
     func menuViewClickMenu()
 }
 
-protocol CLIBMenuViewDataModel {
+public protocol CLIBMenuViewDataModel {
     var viewControllerOptions: [CLIBViewControllerDataModel] { get set }
     var bottomOptions: [CLIBViewControllerDataModel] { get set }
     var photoProfile: UIImage? { get set }

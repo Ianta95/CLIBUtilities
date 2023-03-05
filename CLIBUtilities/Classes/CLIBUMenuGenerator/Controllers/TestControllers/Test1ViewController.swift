@@ -9,7 +9,7 @@ import UIKit
 
 import UIKit
 
-class TestViewController: UIViewController {
+public class TestViewController: UIViewController {
     
     let lblTitle: UILabel = {
         let lbl = UILabel()

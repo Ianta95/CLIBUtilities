@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CLIBMenuGeneratorController: UIViewController {
+public class CLIBMenuGeneratorController: UIViewController {
     // MARK: Components
     var containerView: UIView = {
         let view = UIView()
