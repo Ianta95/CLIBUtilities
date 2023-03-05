@@ -1,0 +1,16 @@
+PODS:
+  - CLIBUtilities (0.1.0)
+
+DEPENDENCIES:
+  - CLIBUtilities (from `../`)
+
+EXTERNAL SOURCES:
+  CLIBUtilities:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLIBUtilities: c073431579daa13f92c0acda649dfd4e6b2c2918
+
+PODFILE CHECKSUM: ef687515f4a7392a013087cecb04089fc2a6cad9
+
+COCOAPODS: 1.11.3

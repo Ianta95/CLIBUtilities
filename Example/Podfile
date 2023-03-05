@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '14.1'
 
 target 'CLIBUtilities_Example' do
   pod 'CLIBUtilities', :path => '../'

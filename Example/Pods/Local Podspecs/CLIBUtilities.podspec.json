@@ -1,0 +1,22 @@
+{
+  "name": "CLIBUtilities",
+  "version": "0.1.0",
+  "summary": "A short description of CLIBUtilities.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ianta95/CLIBUtilities",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ianta95": "ian.barragan@wizeline.com"
+  },
+  "source": {
+    "git": "https://github.com/Ianta95/CLIBUtilities.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CLIBUtilities/Classes/**/*"
+}
