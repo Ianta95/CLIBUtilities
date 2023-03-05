@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '5.0'
-  s.ios.deployment_target = '14.1'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'CLIBUtilities/Classes/**/*'
   
