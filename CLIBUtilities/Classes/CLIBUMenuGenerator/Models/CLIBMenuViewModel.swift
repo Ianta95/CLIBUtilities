@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct CLIBMenuViewModel: CLIBMenuViewDataModel {
+struct CLIBMenuViewModel: CLIBMenuViewDataModel {
     var viewControllerOptions: [CLIBViewControllerDataModel] {
         didSet {
             print("Se asignaron controllers")

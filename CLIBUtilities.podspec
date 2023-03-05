@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CLIBUtilities'
-  s.version          = '0.1.014'
+  s.version          = '0.1.015'
   s.summary          = 'CLIBUtilities its a collection of tools that you can use for your project and let you make APPS more easier and complex. MenuGenerator its the tool that you can use to generate menu with only 3 lines.'
 
 # This description is used to generate tags and improve search results.
