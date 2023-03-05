@@ -13,5 +13,12 @@ extension CLIBMenuGeneratorController {
         var bottomOptions: [CLIBViewControllerDataModel]
         var configs: [CLIBMenuViewConfigs]
         var specialConfigs: [String:AnyObject]? = nil
+        
+        public init(options: [CLIBViewControllerDataModel], bottomOptions: [CLIBViewControllerDataModel], configs: [CLIBMenuViewConfigs], specialConfigs: [String:AnyObject]? = nil ) {
+            self.options = options
+            self.bottomOptions = bottomOptions
+            self.configs = configs
+            self.specialConfigs = specialConfigs
+        }
     }
 }
