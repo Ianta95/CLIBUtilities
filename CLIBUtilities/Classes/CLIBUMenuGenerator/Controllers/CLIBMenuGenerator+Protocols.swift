@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension CLIBMenuGeneratorController: CLIBMenuViewProtocols {
+extension CLIBMenuGeneratorController: CLIBMenuViewProtocols {
     func menuViewGetController() -> UIViewController {
         return self
     }
